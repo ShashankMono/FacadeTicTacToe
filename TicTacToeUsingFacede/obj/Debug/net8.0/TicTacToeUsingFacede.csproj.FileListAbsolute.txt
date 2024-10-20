@@ -1,0 +1,14 @@
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\bin\Debug\net8.0\TicTacToeUsingFacede.exe
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\bin\Debug\net8.0\TicTacToeUsingFacede.deps.json
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\bin\Debug\net8.0\TicTacToeUsingFacede.runtimeconfig.json
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\bin\Debug\net8.0\TicTacToeUsingFacede.dll
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\bin\Debug\net8.0\TicTacToeUsingFacede.pdb
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.GeneratedMSBuildEditorConfig.editorconfig
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.AssemblyInfoInputs.cache
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.AssemblyInfo.cs
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.csproj.CoreCompileInputs.cache
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.dll
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\refint\TicTacToeUsingFacede.dll
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.pdb
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\TicTacToeUsingFacede.genruntimeconfig.cache
+D:\monocept_c# learning\Day27\TicTacToeUsingFacede\TicTacToeUsingFacede\obj\Debug\net8.0\ref\TicTacToeUsingFacede.dll
