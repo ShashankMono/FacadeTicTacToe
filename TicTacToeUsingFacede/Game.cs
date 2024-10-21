@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,41 +47,9 @@ namespace TicTacToeUsingFacede
             bool result = false;
             while (!_board.IsBoardFull())
             {
-                if (counter) {
-                    try
-                    {
-                        TakeIndex(_player1);
-
-                    }catch(Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                        continue;
-                    }
-                    
-                    if (_analyzer.CheckWin(_board, _player1))
-                    {
-                        result = true;
-                        break;
-                    }  
-                }
-                else
-                {
-                    try
-                    {
-                        TakeIndex(_player2);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                        continue;
-                    }
-                    if (_analyzer.CheckWin(_board, _player2))
-                    {
-                        result = true;
-                        break;
-                    }
-                        
-                }
+                result = Play(counter);
+                if (result)
+                    break;
                 counter = !counter;
                 _board.DisplayBoard();
             }
@@ -90,7 +59,43 @@ namespace TicTacToeUsingFacede
             _board.DisplayBoard();
         }
 
+        public bool Play(bool counter)
+        {
+            if (counter)
+            {
+                try
+                {
+                    TakeIndex(_player1);
 
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Play(counter);
+                    return false;
+                }
+
+                if (_analyzer.CheckWin(_board, _player1))
+                    return true;
+            }
+            else
+            {
+                try
+                {
+                    TakeIndex(_player2);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Play(counter);  
+                    return false;
+                }
+                if (_analyzer.CheckWin(_board, _player2))
+                    return true;
+
+            }
+            return false;
+        }
 
     }
 }
